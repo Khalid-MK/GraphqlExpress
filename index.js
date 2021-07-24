@@ -1,17 +1,19 @@
+// 0- $ npm init -y
+// 1- $ npm install express graphql express-graphql nanoid
 // To use babel on converting from es6 to es5 and use nodemon to dynamically change on server
-// 1- $ npm install -D babel-cli babel-core babel-preset-env nodemon
-// 2- Create new file .babelrc and add next lines to it
+// 2- $ npm install -D babel-cli babel-core babel-preset-env nodemon
+// 3- Create new file .babelrc and add next lines to it
 /* 
     // .babelrc
     {
     "presets": ["env"]
     }
 */
-// 3- on package.json  add to scripts next line
+// 4- on package.json  add to scripts next line
 /*
     "start": "nodemon index.js --exec babel-node -e js",
 */
-// 4- now to you ready to start your server using $ npm run start
+// 5- now to you ready to start your server using $ npm run start
 
 import express from 'express'
 
